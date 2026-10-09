@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# JetBrains / PyCharm
+.idea/
+
+# Qdrant local storage (if run via `docker run -v $(pwd)/qdrant_storage:...`)
+qdrant_storage/
+
+# OS
+.DS_Store
+Thumbs.db
